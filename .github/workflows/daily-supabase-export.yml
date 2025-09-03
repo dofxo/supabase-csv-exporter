@@ -2,7 +2,7 @@ name: Daily Supabase CSV Export
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '*/1 * * * *'
   workflow_dispatch:
 
 env:
