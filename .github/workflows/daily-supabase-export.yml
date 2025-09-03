@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  TABLES_TO_EXPORT: 'pois,raceTracks'
+  TABLES_TO_EXPORT: 'pois,raceTracks,gangs,enteringPw,pw'
 
 jobs:
   export-and-email:
